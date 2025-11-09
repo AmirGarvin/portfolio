@@ -50,6 +50,25 @@ nav ul li a:hover {
     color: var(--text-color);
 }
 
+#theme-toggle{
+  background:none;
+  color: var(--text-color);
+  border-radius: 50px;
+  background-color: var(--bg-color);
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#theme-toggle:hover{
+background-color: var(--bg-color);
+color: var(--text-color);
+transform: scale(1.05);
+}
+
+
 #hero {
   padding: 100px 40px;         /* lots of space top/bottom */
   background-color: var(--bg-color);   /* light background to make it pop */
