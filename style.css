@@ -20,7 +20,7 @@ body {
 header {
   background-color: var(--bg-color);
   color: var(--text-color);
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 
 nav {
@@ -66,7 +66,7 @@ nav ul li a:hover {
 }
 
 #hero {
-  padding: 100px 40px; /* lots of space top/bottom */
+  padding: 80px 40px; /* lots of space top/bottom */
   background-color: var(--bg-color); /* light background to make it pop */
   text-align: center; /* center the content */
 }
