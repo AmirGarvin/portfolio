@@ -23,7 +23,6 @@ header {
   padding: 20px 20px;
 }
 .icon-link {
-  filter: brightness(0) invert(1); /* makes icons white on dark bg */
   transition: transform 0.2s ease, filter 0.2s ease;
 }
 
